@@ -63,7 +63,7 @@
 	    						<td><?php echo $detail['stok_barang'] ?></td>
 	    					</tr>
 	    					<tr>
-	    						<td>Keterangan</td>
+	    						<td>Kadaluwarsa</td>
 	    						<td>:</td>
 	    						<td><?php echo $detail['keterangan'] ?></td>
 	    					</tr>

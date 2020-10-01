@@ -105,7 +105,7 @@
 												<input type="number" class="form-control" name="stok" value="<?php echo $data['stok_barang'] ?>">
 											</div>
 											<div class="form-group">
-												<label for="">Keterangan</label>
+												<label for="">Kadaluwarsa</label>
 												<input type="text" class="form-control" name="ket" value="<?php echo $data['keterangan'] ?>">
 											</div>
 											<div class="form-group" id="fotoF">

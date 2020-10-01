@@ -97,7 +97,7 @@
                                     <input type="file" class="form-control" name="foto">
                                 </div>
                                 <div class="form-group">
-                                    <label for="">Keterangan</label>
+                                    <label for="">Kadaluwarsa</label>
                                     <input type="text" class="form-control" name="ket">
                                 </div>
                                 </div>

@@ -57,6 +57,7 @@
                                             <th>Merek</th>
                                             <th>Pegawai</th>
                                             <th>Tanggal Masuk</th>
+                                            <th>Kadaluwarsa</th>
                                             <th>Harga</th>
                                             <th>Jumlah</th>
                                             <th>Action</th>
@@ -73,8 +74,9 @@
                                             <td><?= $ds['merek'] ?></td>
                                             <td><?= $ds['nama_distributor'] ?></td>
                                             <td><?= $ds['tanggal_masuk'] ?></td>
+                                            <td><?= $ds['keterangan'] ?></td>
                                             <td><?= number_format($ds['harga_barang']) ?></td>
-                                            <td><?= $ds['stok_barang'] ?></td>
+                                            <td><?= $ds['stok_barang'] ?></td>  
                                             <td class="text-center">
                                                 <div class="btn-group">
                                                     <a href="?page=viewBarangDetail&id=<?php echo $ds['kd_barang'] ?>" data-toggle="tooltip" data-placement="top" title="Detail" class="btn btn-warning"><i class="fa fa-search"></i></a>
